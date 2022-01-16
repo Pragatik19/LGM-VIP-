@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(-45deg, #7084f8, #3b4caf);
+    background-image: url(bg8.jpg);
+  }
+  button {
+    border-radius: 100px;
+    border: none;
+    background: linear-gradient(-45deg, #0a060a, #020102);
+    color: rgb(255, 255, 255);
+    padding: 15px 30px 15px 30px;
+    font-style: bold;
+  }
+  
+  button:hover {
+    color: rgb(0, 0, 0);
+    background: #f1a4e7;
+  }
+  
+  nav {
+    color: rgb(248, 242, 242);
+    font-size: 35px;
+    background-image: url(nvgb3.jpeg);
+    background-attachment: fixed;
+    background-color: #458eee;
+  }
+  .loader {
+    margin: 000 auto;
+  }
+  .avatar {
+    border-radius: 50px;
+    margin-bottom: 25px;
+  }
+  #main {
+    padding: 14px 50px;
+    margin: 0 auto;
+    display: none;
+  }
+  
+  .info {
+    max-width: 300px;
+    margin: 15px auto;
+    text-align: center;
+    font-family: bold;
+    font-style: italic;
+    padding: 15px;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #8886e5, #78a4df);
+    border: 3px solid #0e0e0e;
+    color: white;
+  }
+  .info:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.2);
+    background: linear-gradient(-45deg, #f19d00, #e430b7);
+    border: 5px solid #ffffff;
+  }
+  .name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .email {
+    font-family: Impact;
+    font-size: 18px;
+    overflow-wrap: break-word;
+  }
